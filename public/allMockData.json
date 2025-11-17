@@ -1,0 +1,2607 @@
+{
+  "data": [
+    {
+      "displayName": "custom",
+      "imageUrl": [
+        "null"
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#F2F2F2",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#9E9E9E",
+        "#6C757D",
+        "#8EC5FF",
+        "#FFB74D",
+        "#2E3A59"
+      ],
+      "source": "tool",
+      "steps": [
+        {
+          "image": null,
+          "text": "快来一起创作吧，发挥你的想象力！"
+        }
+      ]
+    },
+    {
+      "displayName": "沙发",
+      "imageUrl": [
+        "null"
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#F2F2F2",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#9E9E9E",
+        "#6C757D",
+        "#8EC5FF",
+        "#FFB74D",
+        "#2E3A59"
+      ],
+      "source": "tool",
+      "steps": [
+        {
+          "image": "/images/learn/sofa/step1.png",
+          "text": "写两个n"
+        },
+        {
+          "image": "/images/learn/sofa/step2.png",
+          "text": "画一条直线"
+        },
+        {
+          "image": "/images/learn/sofa/step3.png",
+          "text": "写一个扁扁的U"
+        },
+        {
+          "image": "/images/learn/sofa/step4.png",
+          "text": "画一条小弧线"
+        },
+        {
+          "image": "/images/learn/sofa/step5.png",
+          "text": "再画一条大弧线"
+        },
+        {
+          "image": "/images/learn/sofa/step6.png",
+          "text": "画5个小叉叉"
+        },
+        {
+          "image": "/images/learn/sofa/step7.png",
+          "text": "最后再画两个小梯形"
+        },
+        {
+          "image": "/images/learn/sofa/step8.png",
+          "text": "沙发就画好啦，为沙发上色吧～"
+        }
+
+      ]
+    },
+    {
+      "displayName": "custom1",
+      "colors": [
+        "#FFFFFF",
+        "#F2F2F2",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#9E9E9E",
+        "#6C757D",
+        "#8EC5FF",
+        "#FFB74D",
+        "#2E3A59"
+      ],
+      "source": "tool",
+      "steps": [
+        {
+          "image": "/images/dodo_fox/fox.png",
+          "text": "快来一起创作吧，发挥你的想象力！"
+        },
+        {
+          "image": "/images/solar24/chunfen.png",
+          "text": "快来一起创作吧，发挥你的想象力！"
+        }
+      ]
+    },
+    {
+      "displayName": "逗逗狐",
+      "imageUrl": [
+        "/images/dodo_fox/fox.png"
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#F2F2F2",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#9E9E9E",
+        "#6C757D",
+        "#8EC5FF",
+        "#FFB74D",
+        "#2E3A59"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": null,
+          "text": "让我们展开畅想，为逗逗狐Moka设计装扮吧！"
+        }
+      ]
+    },
+    {
+      "displayName": "兔子",
+      "imageUrl": [
+        "https://p0.meituan.net/bizhorus/951326fb101176672dbeb6ac60c03e48713751.png",
+        "https://p0.meituan.net/bizhorus/bf90ef5d7c2bd92efc919cd6eeeab7e71276734.png"
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#F2F2F2",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#9E9E9E",
+        "#6C757D",
+        "#8EC5FF",
+        "#FFB74D",
+        "#2E3A59"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "先画兔子的头，像个圆滚滚的棉花糖，软乎乎的～"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "添上长长的尖耳朵，像两片小树叶竖在头上"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画红宝石似的圆眼睛，再加三瓣嘴，超可爱！"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画椭圆形身体，像小毛球一样圆嘟嘟"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画短短的前腿和粗壮的后腿，方便蹦跳"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "最后画小圆尾巴，像粘了颗白棉花"
+        },
+        {
+          "image": "null",
+          "text": "涂白色或灰色吧，兔子最爱干净啦！"
+        }
+      ]
+    },
+    {
+      "displayName": "猴子",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/925378f753b2a48b4220fefac2411658971362.png",
+        "https://p0.meituan.net/bizhorus/2b1d650aac977a68b06031908b8a1fe91559030.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画猴子的头，像个椭圆形的桃子"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加半圆形耳朵，贴在头两侧"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画圆眼睛和突出的嘴巴，像在做鬼脸"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画弯曲的身体，猴子爱弯腰爬树哦"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "添长长的四肢，手臂比腿更灵活"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画超长尾巴，帮猴子保持平衡"
+        },
+        {
+          "image": "null",
+          "text": "涂棕色毛发，猴子在树上超显眼！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "猫头鹰",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/b69c45dd53226429e5ffde0f2ee6d6711070831.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "先画扁圆形的头，像块圆圆的饼干"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加三角形耳朵，头顶还有小绒毛"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画大大圆眼睛（像小灯笼）和尖嘴巴"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画胖乎乎的椭圆形身体，像小气球"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "添短短的爪子，抓着树枝的样子"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画展开的翅膀，像披了件深色披风"
+        },
+        {
+          "image": "null",
+          "text": "涂棕色和白色，夜晚猫头鹰超神气！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "袋鼠",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/38cbc3a9aed73466313a2bffeb324c8b1081751.png",
+        "https://p0.meituan.net/bizhorus/f80d383b0d6de95c11d072710f3adfbb687532.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画袋鼠的头，像个小椭圆形，带点尖"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加小小的圆耳朵，竖在头上很精神"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画圆眼睛和小鼻子，表情很温和"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画大大的身体，肚子要画鼓一点（装宝宝）"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画粗壮的后腿和短短的前腿，后腿会跳"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画长长的尾巴，像根小棍子帮平衡"
+        },
+        {
+          "image": "null",
+          "text": "涂灰色或棕色，袋鼠妈妈超有爱！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "狼",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/38cbc3a9aed73466313a2bffeb324c8b1081751.png",
+        "https://p0.meituan.net/bizhorus/e810895e764ae3283e0715ad781ddb861539076.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画狼的头，像拉长的椭圆形，带点尖"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加三角形耳朵，竖起来很警惕"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画细长的眼睛和尖嘴巴，露点小牙齿"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画流线型身体，像跑步的姿势"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画有力的四肢，前腿比后腿短一点"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画毛茸茸的大尾巴，垂在身后"
+        },
+        {
+          "image": "null",
+          "text": "涂灰色或黑色，狼在草原超威风！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "海豚",
+      "imageUrl": [
+        "http://p1.meituan.net/bizhorus/f3c72816413d7852866c41722f21c2131130771.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画海豚的身体，像弯弯的月牙，两头尖"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加圆圆的背鳍，像小三角形立在背上"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画小小的头和圆嘴巴，像在微笑"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "添短短的胸鳍，在身体两侧"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画分叉的尾巴，像两片小扇子"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "在嘴巴旁边画点水波纹，海豚在游泳呢"
+        },
+        {
+          "image": "null",
+          "text": "涂蓝色吧，海豚在海里最漂亮！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "熊猫",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/2b5ca19e19cc6b8f9eef56bb0dbcfd921387081.png",
+        "https://p0.meituan.net/bizhorus/fde3a67158a060862f15aabe2558e5fd1516351.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画熊猫的头，像个大大的黑白色皮球"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加半圆形黑耳朵，贴在头两侧"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画大大的黑眼圈，里面藏圆眼睛"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画胖乎乎的身体，像圆滚滚的汤圆"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "添短短的黑四肢，爪子很可爱"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画 tiny 的小尾巴，几乎看不见"
+        },
+        {
+          "image": "null",
+          "text": "涂黑白两色，熊猫是国宝呀！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "狮子",
+      "imageUrl": [
+        "https://p1.meituan.net/bizhorus/069e2661419375aa8d3480b27482c5321079864.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画狮子的头，像个大圆形，周围留空（画鬃毛）"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "用曲线画一圈鬃毛，像大大的太阳花"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画圆眼睛和大鼻子，嘴巴带点微笑"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画强壮的身体，像椭圆形的小山坡"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "添有力的四肢，爪子尖尖的"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画长长的尾巴，末端有小毛球"
+        },
+        {
+          "image": "null",
+          "text": "涂黄色和棕色，狮子是森林之王！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "狐狸",
+      "imageUrl": [
+        "https://p0.meituan.net/bizhorus/7291686b9d3cd39add083214e21623ae1395567.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画狐狸的头，像个三角形，带点圆"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加尖尖的耳朵，耳尖有点白毛毛"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画杏仁形眼睛和尖嘴巴，很机灵"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画瘦瘦的身体，像小月牙一样"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "添短短的四肢，跑起来很快"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画大大的尾巴，像蓬松的扫把"
+        },
+        {
+          "image": "null",
+          "text": "涂橙色和白色，狐狸超漂亮！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "大象",
+      "imageUrl": [
+        "https://p0.meituan.net/bizhorus/9d89f2ed839114d7b612ec700dcbe0541440280.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画大象的头，像个大圆形，很笨重"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加大大的耳朵，像两把扇子"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画长长的鼻子，能卷东西哦"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画胖胖的身体，像个大坦克"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "添粗粗的四肢，像四根柱子"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画小小的尾巴，末端有毛球"
+        },
+        {
+          "image": "null",
+          "text": "涂灰色，大象在草原超稳重！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "犀牛",
+      "imageUrl": [
+        "https://p0.meituan.net/bizhorus/37771b54b711878d7aa9d8c148dc70d7584361.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画犀牛的头，像个大长方形，带点圆"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加小小的耳朵，和大大的头对比"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画头顶的尖角，尖尖的很厉害"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画壮壮的身体，像个小山坡"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "添粗短的四肢，跑起来很稳"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画短短的尾巴，几乎看不见"
+        },
+        {
+          "image": "null",
+          "text": "涂灰色，犀牛的皮肤硬硬的！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "企鹅",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/cb04165a1da77fa86cbd7e8d823f34ff1104555.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画企鹅的头，像个黑圆形，很可爱"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加小小的耳朵，藏在黑毛里"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画圆眼睛和小嘴巴，嘴巴是橙色的"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画胖胖的身体，像个黑汤圆"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "添短短的翅膀，不能飞哦"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画短短的脚，像小扇子"
+        },
+        {
+          "image": "null",
+          "text": "涂黑白和橙色，企鹅在南极超萌！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "猫",
+      "imageUrl": [
+        "http://p1.meituan.net/bizhorus/e2d752eefa25ca8e3acc6ebdfae3bcc31358838.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画猫的头，像个椭圆形，很秀气"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加三角形耳朵，耳尖有点软"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画圆眼睛和小鼻子，加小胡须"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画瘦瘦的身体，像条小曲线"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "添短短的四肢，爪子尖尖的"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画长长的尾巴，能翘起来"
+        },
+        {
+          "image": "null",
+          "text": "涂白色、黑色或橘色，小猫超乖！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "蝙蝠",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/c7216393869a7b74e5216ff3bc40adb71209547.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画蝙蝠的头，像个小圆形，带点尖"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加小小的耳朵，很灵敏"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画小眼睛和尖嘴巴，夜晚才出来"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画大大的翅膀，像展开的黑布"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "添短短的身体，藏在翅膀里"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画细细的腿，挂在树上睡觉"
+        },
+        {
+          "image": "null",
+          "text": "涂黑色，蝙蝠在夜晚会飞哦！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "蛇",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/a82b05123cbf4f0a1118323f04b89c8f1177479.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画蛇的头，像个小三角形，很凶"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加小小的眼睛，几乎看不见眼皮"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画分叉的舌头，会吐出来哦"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画长长的身体，像弯弯的曲线"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "在身体上画花纹，条纹或圆点"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画细细的尾巴，越来越尖"
+        },
+        {
+          "image": "null",
+          "text": "涂绿色或黄色，蛇在草丛里很隐蔽！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "鹿",
+      "imageUrl": [
+        "https://p0.meituan.net/bizhorus/5939a5a3499d9e303085bdad0657b42c1028575.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画鹿的头，像个小椭圆形，很温柔"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加大大的角（雄鹿才有），像树枝"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画圆眼睛和小鼻子，很温顺"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画瘦瘦的身体，像小月牙"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "添细长的四肢，跑起来很轻"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画短短的尾巴，几乎看不见"
+        },
+        {
+          "image": "null",
+          "text": "涂棕色，鹿在森林里很优雅！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "狗",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/1661318761204448e53d28a5ad1ebe191370712.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画狗的头，像个椭圆形，很友好"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加半圆形耳朵，垂下来或竖起来"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画圆眼睛和大鼻子，鼻子湿湿的"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画壮壮的身体，像小长方形"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "添有力的四肢，跑起来很快"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画长长的尾巴，会摇来摇去"
+        },
+        {
+          "image": "null",
+          "text": "涂黄色或棕色，小狗是人类的朋友！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "鹦鹉",
+      "imageUrl": [
+        "https://p0.meituan.net/bizhorus/d4cd8b321a28dccb47622fbc93a10b761037413.png"
+      ],
+      "source": "animal",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画鹦鹉的头，像个小圆形，很鲜艳"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "加弯弯的嘴巴，像个钩子"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "画圆眼睛，周围有彩色的毛"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画小小的身体，羽毛很亮"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "添大大的翅膀，能飞很远"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "画长长的尾巴，像彩色的扇子"
+        },
+        {
+          "image": "null",
+          "text": "涂红色、蓝色和绿色，鹦鹉超好看！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#FFFFFF",
+        "#FFC1CC",
+        "#FF6B6B",
+        "#8EC5FF",
+        "#FFD166",
+        "#2ECC71"
+      ]
+    },
+    {
+      "displayName": "苹果",
+      "imageUrl": [
+        "https://p0.meituan.net/bizhorus/f93f6fe355593f141d390fbb7931ed7e1273296.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "先画苹果，像个圆圆的小皮球"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小凹陷，留着放果柄"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添短短的果柄，像小尾巴"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在果柄旁画片小叶子，尖尖的"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画一条弯弯的弧线，让苹果更立体"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，苹果是不是很圆呀？"
+        },
+        {
+          "image": "null",
+          "text": "涂红色或绿色，苹果甜甜的！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "香蕉",
+      "imageUrl": [
+        "http://p1.meituan.net/bizhorus/82e0ea5ff647246b9c4e5c9ac588e90b1252506.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画香蕉，像弯弯的月牙，两头尖"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在一端画个小圆点，是香蕉的根"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "沿边缘画条弧线，让香蕉有立体感"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "可以再画一根，和它靠在一起"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "添淡淡的线条，像香蕉皮的纹理"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，香蕉是不是弯弯的？"
+        },
+        {
+          "image": "null",
+          "text": "涂黄色，熟香蕉最好吃啦！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "橙子",
+      "imageUrl": [
+        "https://p1.meituan.net/bizhorus/afce391fae4b2c1dcefb89c6a25c8069925985.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画橙子，像个圆滚滚的小灯笼"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小凸起，是果蒂的位置"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添短短的果蒂，像小棍子"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在橙子上画几条弧线，像果皮的纹路"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画一条弯弯的线，让橙子更圆"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，橙子是不是很饱满？"
+        },
+        {
+          "image": "null",
+          "text": "涂橙色，橙子酸酸甜甜的！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "草莓",
+      "imageUrl": [
+        "https://p1.meituan.net/bizhorus/564eac85019152665c17de2da7810d3d1228649.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画草莓，像个倒过来的三角形"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小凹陷，放草莓蒂"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添绿色的草莓蒂，像小叶子"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在草莓上画很多小黑点，是籽"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画几条弧线，让草莓更立体"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，草莓是不是红红的？"
+        },
+        {
+          "image": "null",
+          "text": "涂红色和绿色，草莓超甜！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "葡萄",
+      "imageUrl": [
+        "http://p1.meituan.net/bizhorus/a9dcd0ea2b7a84f93c65e9659e653b31984993.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画葡萄，先画一串小圆球，靠在一起"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小枝条，连接葡萄"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添几片小叶子，在枝条上"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在葡萄上画淡淡的圆点，更像果实"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画枝条的纹理，像小线条"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，葡萄是不是一串呀？"
+        },
+        {
+          "image": "null",
+          "text": "涂紫色或绿色，葡萄酸酸的！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "芒果",
+      "imageUrl": [
+        "https://p0.meituan.net/bizhorus/0e81b4e33965a8bd09d0b1a7dacf1a19518210.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画芒果，像个弯弯的小船，一头尖"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在尖的一端画个小凹陷，是果蒂"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添短短的果蒂，像小棍子"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "画一条弧线，让芒果更立体"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "在芒果上画淡淡的纹理"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，芒果是不是黄黄的？"
+        },
+        {
+          "image": "null",
+          "text": "涂黄色，芒果超香！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "梨",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/08b17b9ad386da9a5144c2a2cef3fd111178481.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画梨，像个小葫芦，下面圆上面尖"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小凹陷，放梨柄"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添长长的梨柄，像小树枝"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在梨柄旁画片小叶子"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画一条弧线，让梨更立体"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，梨是不是很可爱？"
+        },
+        {
+          "image": "null",
+          "text": "涂黄色或绿色，梨甜甜的！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "樱桃",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/14846751fc5ba5194403ae32ebe77ec1975834.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画樱桃，先画两个小圆球，靠在一起"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画两个小凹陷，放果柄"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添短短的果柄，像小细线"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在樱桃上画个小白点，像反光"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画一条弧线，让樱桃更圆"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，樱桃是不是红红的？"
+        },
+        {
+          "image": "null",
+          "text": "涂红色，樱桃超小超甜！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "西瓜",
+      "imageUrl": [
+        "https://p1.meituan.net/bizhorus/f6e9c504c84ef20606ad367f5601018e1225993.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画西瓜，像个大大的圆形，很胖"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小藤蔓，像小尾巴"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添几片小叶子，在藤蔓上"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在西瓜上画深绿色的条纹"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "可以画一半西瓜，露出红色果肉"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "在果肉上画黑色的籽"
+        },
+        {
+          "image": "null",
+          "text": "涂绿色和红色，西瓜超解渴！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "菠萝",
+      "imageUrl": [
+        "http://p1.meituan.net/bizhorus/a30f452aa2239bc5ea48a9c6a1e669ec719585.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画菠萝，像个大大的椭圆形，带点尖"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小叶子，像花朵"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添几片长长的叶子，尖尖的"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在菠萝身上画很多小菱形，是鳞片"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "每个菱形中间画个小点"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，菠萝是不是很扎手？"
+        },
+        {
+          "image": "null",
+          "text": "涂黄色和绿色，菠萝酸酸的！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "柠檬",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/1c05d97a51924ae12db1fb10686270171078268.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画柠檬，像个圆圆的小皮球，很亮"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小凹陷，放果蒂"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添短短的果蒂，像小棍子"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在柠檬上画几条弧线，像果皮纹理"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画一个小白点，像反光"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，柠檬是不是黄黄的？"
+        },
+        {
+          "image": "null",
+          "text": "涂黄色，柠檬酸酸的！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "猕猴桃",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/41c7605781c995775de1d7a14a18d679590829.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画猕猴桃，像个椭圆形的小土豆"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小凹陷，放果蒂"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添短短的果蒂，像小棍子"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在猕猴桃上画很多小短刺，是绒毛"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "可以画一半，露出绿色果肉和黑籽"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，猕猴桃是不是毛茸茸的？"
+        },
+        {
+          "image": "null",
+          "text": "涂棕色和绿色，猕猴桃超有营养！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "柿子",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/90073c036055057a2623b1d9fc5ef7bf1389397.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画柿子，像个圆圆的小灯笼，红红的"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小凹陷，放果蒂"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添长长的果蒂，像小树枝"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在果蒂旁画两片小叶子"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画一条弧线，让柿子更立体"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，柿子是不是很软？"
+        },
+        {
+          "image": "null",
+          "text": "涂红色或橙色，柿子甜甜的！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "哈密瓜",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/0c59fc50f4807fc191242719746f497f607516.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画哈密瓜，像个长长的椭圆形，很胖"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小藤蔓，像小尾巴"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添几片小叶子，在藤蔓上"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在哈密瓜上画深绿色的条纹，像网"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "可以画一半，露出橙色果肉和籽"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，哈密瓜是不是很甜？"
+        },
+        {
+          "image": "null",
+          "text": "涂黄色和绿色，哈密瓜超香！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "龙眼",
+      "imageUrl": [
+        "http://p1.meituan.net/bizhorus/e2c7aa22c13f118f5e09d58f4acfe24f1147238.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画龙眼，像个小小的圆形，黑黑的"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小凹陷，放果蒂"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添短短的果蒂，像小细线"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在龙眼上画个小白点，像反光"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画一条弧线，让龙眼更圆"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，龙眼是不是小小的？"
+        },
+        {
+          "image": "null",
+          "text": "涂棕色和黑色，龙眼甜甜的！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "荔枝",
+      "imageUrl": [
+        "https://p1.meituan.net/bizhorus/a2ef5c5002da2073c0ee5efaec29e5a81397350.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画荔枝，像个圆圆的小皮球，红红的"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小凹陷，放果蒂"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添短短的果蒂，像小棍子"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在荔枝上画很多小凸起，是外壳"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画一条弧线，让荔枝更立体"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，荔枝是不是很扎手？"
+        },
+        {
+          "image": "null",
+          "text": "涂红色，荔枝超甜！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "石榴",
+      "imageUrl": [
+        "https://p0.meituan.net/bizhorus/85d35d75b4aac7e5ae60cc5bf920178d890563.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画石榴，像个圆圆的小灯笼，红红的"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小凸起，像花朵"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添几片小花瓣，在顶部"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在石榴上画几条弧线，像果皮纹理"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "可以画一半，露出红色籽"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，石榴是不是很多籽？"
+        },
+        {
+          "image": "null",
+          "text": "涂红色，石榴甜甜的！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "椰子",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/f07704fec5f1ade47149f38775f6703f935756.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画椰子，像个大大的圆形，硬硬的"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小三角形，是椰子壳的口"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添长长的椰子树叶子，像羽毛"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在椰子上画几条弧线，像纹理"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画一个小白点，像反光"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，椰子是不是很重？"
+        },
+        {
+          "image": "null",
+          "text": "涂棕色和绿色，椰子水超解渴！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "山竹",
+      "imageUrl": [
+        "https://p0.meituan.net/bizhorus/96c7789553c67d0ec1200b782da51fe31380408.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画山竹，像个小小的圆形，黑黑的"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小凹陷，像花瓣"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添短短的果蒂，藏在凹陷里"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在山竹上画几条弧线，像外壳的纹"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画一个小白点，像反光"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，山竹是不是软软的？"
+        },
+        {
+          "image": "null",
+          "text": "涂紫色，山竹超甜！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "橄榄",
+      "imageUrl": [
+        "http://p0.meituan.net/bizhorus/fe3ee362d11eb3da97ef3634588cdc641172669.png"
+      ],
+      "source": "food",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画橄榄，像个小小的椭圆形，绿绿的"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在顶部画个小凹陷，放果蒂"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "添短短的果蒂，像小细线"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在橄榄上画一条弧线，让它更立体"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "画一个小白点，像反光"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，橄榄是不是小小的？"
+        },
+        {
+          "image": "null",
+          "text": "涂绿色，橄榄可以腌着吃！"
+        }
+      ],
+      "colors": [
+        "#EF476F",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2",
+        "#FF9F1C",
+        "#FF6B6B",
+        "#2EC4B6",
+        "#F7A1C4",
+        "#8D99AE"
+      ]
+    },
+    {
+      "displayName": "菜刀",
+      "imageUrl": [
+        "http://p1.meituan.net/bizhorus/8c812e9a17a03828dfd7038b5a9da0e81226105.png"
+      ],
+      "source": "tool",
+      "steps": [
+        {
+          "image": "/images/step1.png",
+          "text": "画菜刀，先画长长的长方形，是刀身"
+        },
+        {
+          "image": "/images/step2.png",
+          "text": "在一端画尖尖的刀刃，要小心哦"
+        },
+        {
+          "image": "/images/step3.png",
+          "text": "另一端画小小的长方形，是刀柄"
+        },
+        {
+          "image": "/images/step4.png",
+          "text": "在刀柄上画几条横线，防滑用"
+        },
+        {
+          "image": "/images/step5.png",
+          "text": "连接刀身和刀柄，要牢固"
+        },
+        {
+          "image": "/images/step6.png",
+          "text": "检查一下，菜刀是不是很锋利？"
+        },
+        {
+          "image": "null",
+          "text": "涂银色和黑色，菜刀是厨房好帮手！"
+        }
+      ],
+      "colors": [
+        "#2E3A59",
+        "#6C757D",
+        "#9E9E9E",
+        "#DADADA",
+        "#FFFFFF",
+        "#FF3B30",
+        "#0A84FF",
+        "#34C759",
+        "#F59E0B"
+      ]
+    },
+    {
+      "displayName": "立春",
+      "imageUrl": ["/images/solar24/lichun.png"],
+      "source": "tool",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画春牛，先画椭圆形牛身" },
+        { "image": "/images/step2.png", "text": "牛身前端画小椭圆形牛头" },
+        { "image": "/images/step3.png", "text": "牛身两侧画粗短牛腿" },
+        { "image": "/images/step4.png", "text": "牛身后端画弯弯牛尾巴" },
+        { "image": "/images/step5.png", "text": "牛头加小三角牛角和圆眼睛" },
+        { "image": "/images/step6.png", "text": "牛身画短线，模拟牛毛纹理" },
+        { "image": "null", "text": "涂棕黄和黑色，春牛象征春耕" }
+      ],
+      "colors": [
+        "#8B4513",
+        "#A0522D",
+        "#CD853F",
+        "#D2B48C",
+        "#FFFFFF",
+        "#000000",
+        "#FFD700",
+        "#34C759",
+        "#8FBC8F"
+      ]
+    },
+    {
+      "displayName": "雨水",
+      "imageUrl": ["/images/solar24/yushui.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画油纸伞，先画圆形伞面" },
+        { "image": "/images/step2.png", "text": "伞面中心画短竖线伞柄" },
+        { "image": "/images/step3.png", "text": "伞面加放射短线分区域" },
+        { "image": "/images/step4.png", "text": "伞柄下端画小弯钩握柄" },
+        { "image": "/images/step5.png", "text": "伞面画小桃花图案点缀" },
+        { "image": "/images/step6.png", "text": "添几滴斜线，模拟雨滴" },
+        { "image": "null", "text": "涂浅蓝和粉色，应节气雨" }
+      ],
+      "colors": [
+        "#87CEEB",
+        "#B0E2FF",
+        "#FFB6C1",
+        "#FFFFFF",
+        "#8B4513",
+        "#A0522D",
+        "#000000",
+        "#34C759",
+        "#FFD700"
+      ]
+    },
+    {
+      "displayName": "惊蛰",
+      "imageUrl": ["/images/solar24/jingzhe.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画桃木枝，先画长弧线枝干" },
+        { "image": "/images/step2.png", "text": "枝干两侧画短分叉细枝" },
+        { "image": "/images/step3.png", "text": "细枝顶端画小圆形芽苞" },
+        { "image": "/images/step4.png", "text": "芽苞旁画小尖叶，刚冒头" },
+        { "image": "/images/step5.png", "text": "枝干加短线，模拟树皮纹" },
+        { "image": "/images/step6.png", "text": "添几点短线，像春雷痕迹" },
+        { "image": "null", "text": "涂浅绿和棕褐，驱邪唤绿" }
+      ],
+      "colors": [
+        "#9ACD32",
+        "#7CCD7C",
+        "#8B4513",
+        "#A0522D",
+        "#FFFFFF",
+        "#000000",
+        "#D2B48C",
+        "#34C759",
+        "#FFD700"
+      ]
+    },
+    {
+      "displayName": "春分",
+      "imageUrl": ["/images/solar24/chunfen.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画纸鸢，先画菱形风筝面" },
+        { "image": "/images/step2.png", "text": "风筝面下画倒三角尾巴" },
+        { "image": "/images/step3.png", "text": "尾巴加几条竖线，分流苏" },
+        { "image": "/images/step4.png", "text": "风筝面中心画短竖线风筝骨" },
+        { "image": "/images/step5.png", "text": "风筝骨顶端画小圆环，系线" },
+        { "image": "/images/step6.png", "text": "添斜线，像风筝线飘着" },
+        { "image": "null", "text": "涂五彩和白色，春日放鸢" }
+      ],
+      "colors": [
+        "#B0E2FF",
+        "#FF6347",
+        "#FFD700",
+        "#FF3B30",
+        "#FFFFFF",
+        "#000000",
+        "#0A84FF",
+        "#34C759",
+        "#FFB6C1"
+      ]
+    },
+    {
+      "displayName": "清明",
+      "imageUrl": ["/images/solar24/qingming.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画柳枝花束，先画粗弧线柳枝" },
+        { "image": "/images/step2.png", "text": "柳枝两侧画细长柳叶" },
+        { "image": "/images/step3.png", "text": "柳叶尖朝下垂，像柳叶飘" },
+        { "image": "/images/step4.png", "text": "柳枝底部画小圆圈，捆花束" },
+        { "image": "/images/step5.png", "text": "添几片散柳叶，增加灵动" },
+        { "image": "/images/step6.png", "text": "画短线，像春风吹柳枝" },
+        { "image": "null", "text": "涂浅绿和白色，折柳显生机" }
+      ],
+      "colors": [
+        "#90EE90",
+        "#7CCD7C",
+        "#34C759",
+        "#FFFFFF",
+        "#000000",
+        "#B0E2FF",
+        "#8FBC8F",
+        "#D2B48C",
+        "#FFD700"
+      ]
+    },
+    {
+      "displayName": "谷雨",
+      "imageUrl": ["/images/solar24/guyu.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画茶芽，先画细弧线茶枝" },
+        { "image": "/images/step2.png", "text": "茶枝顶端画对称小芽叶" },
+        { "image": "/images/step3.png", "text": "芽叶中间画小尖芽，刚冒" },
+        { "image": "/images/step4.png", "text": "茶枝旁加短细枝，多芽叶" },
+        { "image": "/images/step5.png", "text": "添几点短线，像露水在芽上" },
+        { "image": "/images/step6.png", "text": "茶枝底部画小土块，扎根" },
+        { "image": "null", "text": "涂嫩绿和棕褐，采茶黄金期" }
+      ],
+      "colors": [
+        "#8FBC8F",
+        "#7CCD7C",
+        "#34C759",
+        "#8B4513",
+        "#FFFFFF",
+        "#000000",
+        "#D2B48C",
+        "#B0E2FF",
+        "#FFD700"
+      ]
+    },
+    {
+      "displayName": "立夏",
+      "imageUrl": ["/images/solar24/lixia.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画青梅，先画粗弧线梅枝" },
+        { "image": "/images/step2.png", "text": "梅枝上画椭圆形青梅果" },
+        { "image": "/images/step3.png", "text": "青梅果旁画小尖叶，成对" },
+        { "image": "/images/step4.png", "text": "梅枝加短线，模拟树皮" },
+        { "image": "/images/step5.png", "text": "青梅果上画小圆圈，果蒂" },
+        { "image": "/images/step6.png", "text": "添几点，像青梅上的斑点" },
+        { "image": "null", "text": "涂浅绿和棕褐，立夏尝青梅" }
+      ],
+      "colors": [
+        "#FFB6C1",
+        "#9ACD32",
+        "#7CCD7C",
+        "#8B4513",
+        "#FFFFFF",
+        "#000000",
+        "#D2B48C",
+        "#34C759",
+        "#FFD700"
+      ]
+    },
+    {
+      "displayName": "小满",
+      "imageUrl": ["/images/solar24/xiaoman.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画麦穗，先画长弧线麦秆" },
+        { "image": "/images/step2.png", "text": "麦秆顶端画小梯形麦头" },
+        { "image": "/images/step3.png", "text": "麦头两侧画短斜线麦芒" },
+        { "image": "/images/step4.png", "text": "麦秆底部画小分叉，扎根" },
+        { "image": "/images/step5.png", "text": "麦头加短线，模拟麦粒满" },
+        { "image": "/images/step6.png", "text": "添几片窄叶，麦叶护麦穗" },
+        { "image": "null", "text": "涂浅黄和绿色，麦穗满未熟" }
+      ],
+      "colors": [
+        "#F0E68C",
+        "#FFD700",
+        "#7CCD7C",
+        "#34C759",
+        "#FFFFFF",
+        "#000000",
+        "#D2B48C",
+        "#8B4513",
+        "#A0522D"
+      ]
+    },
+    {
+      "displayName": "芒种",
+      "imageUrl": ["/images/solar24/mangzhong.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画镰刀，先画弯弯镰刀头" },
+        { "image": "/images/step2.png", "text": "镰刀头末端画长直线刀柄" },
+        { "image": "/images/step3.png", "text": "刀柄加横线，防滑纹路" },
+        { "image": "/images/step4.png", "text": "镰刀旁画稻穗，先画稻秆" },
+        { "image": "/images/step5.png", "text": "稻秆顶端画椭圆形稻头" },
+        { "image": "/images/step6.png", "text": "稻头加短线，模拟稻粒" },
+        { "image": "null", "text": "涂银色和金黄，夏收夏种忙" }
+      ],
+      "colors": [
+        "#D2B48C",
+        "#6C757D",
+        "#FFD700",
+        "#F0E68C",
+        "#FFFFFF",
+        "#000000",
+        "#8B4513",
+        "#34C759",
+        "#FF3B30"
+      ]
+    },
+    {
+      "displayName": "夏至",
+      "imageUrl": ["/images/solar24/xiazhi.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画蒲扇，先画圆形扇面" },
+        { "image": "/images/step2.png", "text": "扇面中心画短竖线扇柄" },
+        { "image": "/images/step3.png", "text": "扇面加放射短线，扇骨痕" },
+        { "image": "/images/step4.png", "text": "扇柄下端画小长方形握柄" },
+        { "image": "/images/step5.png", "text": "扇面画简单花纹，如波浪" },
+        { "image": "/images/step6.png", "text": "添斜线，像扇风的痕迹" },
+        { "image": "null", "text": "涂浅棕和米色，暑天用蒲扇" }
+      ],
+      "colors": [
+        "#FF6347",
+        "#D2B48C",
+        "#A0522D",
+        "#8B4513",
+        "#FFFFFF",
+        "#000000",
+        "#F59E0B",
+        "#FFD700",
+        "#B0E2FF"
+      ]
+    },
+    {
+      "displayName": "小暑",
+      "imageUrl": ["/images/solar24/xiaoshu.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画荷花，先画圆形荷花苞" },
+        { "image": "/images/step2.png", "text": "花苞下画长弧线花茎" },
+        { "image": "/images/step3.png", "text": "花茎两侧画圆形荷叶" },
+        { "image": "/images/step4.png", "text": "荷叶加放射短线，叶脉" },
+        { "image": "/images/step5.png", "text": "花苞旁画半开花瓣，初绽" },
+        { "image": "/images/step6.png", "text": "添几点，像荷叶上的露水" },
+        { "image": "null", "text": "涂粉红和绿色，小暑荷盛放" }
+      ],
+      "colors": [
+        "#40E0D0",
+        "#FFB6C1",
+        "#7CCD7C",
+        "#34C759",
+        "#FFFFFF",
+        "#000000",
+        "#B0E2FF",
+        "#FF3B30",
+        "#FFD700"
+      ]
+    },
+    {
+      "displayName": "大暑",
+      "imageUrl": ["/images/solar24/dashu.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画西瓜块，先画三角形瓜肉" },
+        { "image": "/images/step2.png", "text": "瓜肉顶端画小梯形瓜皮" },
+        { "image": "/images/step3.png", "text": "瓜肉里画小黑点，西瓜籽" },
+        { "image": "/images/step4.png", "text": "瓜皮加细线，分绿白层" },
+        { "image": "/images/step5.png", "text": "添几滴，像西瓜汁欲滴" },
+        { "image": "/images/step6.png", "text": "旁画小冰块，显清凉" },
+        { "image": "null", "text": "涂红绿和黑色，大暑食西瓜" }
+      ],
+      "colors": [
+        "#FF4500",
+        "#34C759",
+        "#000000",
+        "#FFFFFF",
+        "#B0E2FF",
+        "#87CEEB",
+        "#FF3B30",
+        "#7CCD7C",
+        "#FFD700"
+      ]
+    },
+    {
+      "displayName": "立秋",
+      "imageUrl": ["/images/solar24/liqiu.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画枫叶，先画掌形枫叶轮廓" },
+        { "image": "/images/step2.png", "text": "枫叶加放射叶脉，分叶片" },
+        { "image": "/images/step3.png", "text": "枫叶底部画短弧线叶柄" },
+        { "image": "/images/step4.png", "text": "叶柄下画细枝，连枫叶" },
+        { "image": "/images/step5.png", "text": "添几片半红枫叶，渐变" },
+        { "image": "/images/step6.png", "text": "画短线，像风吹枫叶飘" },
+        { "image": "null", "text": "涂红橙和绿色，立秋枫初红" }
+      ],
+      "colors": [
+        "#CD5C5C",
+        "#FF6347",
+        "#F59E0B",
+        "#7CCD7C",
+        "#FFFFFF",
+        "#000000",
+        "#D2B48C",
+        "#8B4513",
+        "#FFD700"
+      ]
+    },
+    {
+      "displayName": "处暑",
+      "imageUrl": ["/images/solar24/chushu.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画芦苇，先画多根细弧线苇秆" },
+        { "image": "/images/step2.png", "text": "苇秆顶端画蓬松芦花，像小团" },
+        { "image": "/images/step3.png", "text": "芦花加短线，显蓬松感" },
+        { "image": "/images/step4.png", "text": "苇秆下部画窄长苇叶" },
+        { "image": "/images/step5.png", "text": "添几根斜苇秆，显错落" },
+        { "image": "/images/step6.png", "text": "画短线，像秋风拂芦花" },
+        { "image": "null", "text": "涂米白和浅棕，处暑芦花飘" }
+      ],
+      "colors": [
+        "#F4A460",
+        "#D2B48C",
+        "#E6E6FA",
+        "#FFFFFF",
+        "#000000",
+        "#8B4513",
+        "#A0522D",
+        "#34C759",
+        "#FFD700"
+      ]
+    },
+    {
+      "displayName": "白露",
+      "imageUrl": ["/images/solar24/bailu.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画桂花，先画弧线桂树枝" },
+        { "image": "/images/step2.png", "text": "树枝上画小圆形桂花，簇状" },
+        { "image": "/images/step3.png", "text": "树枝两侧画椭圆形桂叶" },
+        { "image": "/images/step4.png", "text": "桂叶加叶脉，显清晰" },
+        { "image": "/images/step5.png", "text": "添几点，像露水在花叶上" },
+        { "image": "/images/step6.png", "text": "画短线，像桂花香气飘" },
+        { "image": "null", "text": "涂浅黄和绿色，白露桂飘香" }
+      ],
+      "colors": [
+        "#E6E6FA",
+        "#FFD700",
+        "#F0E68C",
+        "#7CCD7C",
+        "#FFFFFF",
+        "#000000",
+        "#8B4513",
+        "#34C759",
+        "#B0E2FF"
+      ]
+    },
+    {
+      "displayName": "秋分",
+      "imageUrl": ["/images/solar24/qiufen.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画稻穗，先画长弧线稻秆" },
+        { "image": "/images/step2.png", "text": "稻秆顶端画饱满稻头，下垂" },
+        { "image": "/images/step3.png", "text": "稻头两侧画短斜线稻芒" },
+        { "image": "/images/step4.png", "text": "稻秆底部画分叉，扎根土" },
+        { "image": "/images/step5.png", "text": "稻头加密集短线，麦粒满" },
+        { "image": "/images/step6.png", "text": "添多根稻穗，显丰收景" },
+        { "image": "null", "text": "涂金黄和棕色，秋分庆丰收" }
+      ],
+      "colors": [
+        "#DAA520",
+        "#FFD700",
+        "#F0E68C",
+        "#8B4513",
+        "#FFFFFF",
+        "#000000",
+        "#D2B48C",
+        "#34C759",
+        "#FF6347"
+      ]
+    },
+    {
+      "displayName": "寒露",
+      "imageUrl": ["/images/solar24/hanlu.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画菊花，先画圆形花盆" },
+        { "image": "/images/step2.png", "text": "花盆上画弯曲菊茎" },
+        { "image": "/images/step3.png", "text": "菊茎顶端画放射花瓣，绽放" },
+        { "image": "/images/step4.png", "text": "菊茎两侧画锯齿形菊叶" },
+        { "image": "/images/step5.png", "text": "花盆加横线，装饰纹路" },
+        { "image": "/images/step6.png", "text": "添几点，像寒露凝花瓣" },
+        { "image": "null", "text": "涂紫色和绿色，寒露赏菊花" }
+      ],
+      "colors": [
+        "#DDA0DD",
+        "#9370DB",
+        "#7CCD7C",
+        "#34C759",
+        "#FFFFFF",
+        "#000000",
+        "#D2B48C",
+        "#8B4513",
+        "#FFD700"
+      ]
+    },
+    {
+      "displayName": "霜降",
+      "imageUrl": ["/images/solar24/shuangjiang.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画柿子，先画弧线柿树枝" },
+        { "image": "/images/step2.png", "text": "树枝上画圆形柿子，挂枝" },
+        { "image": "/images/step3.png", "text": "柿子顶端画小圆圈，柿蒂" },
+        { "image": "/images/step4.png", "text": "树枝两侧画椭圆形柿叶" },
+        { "image": "/images/step5.png", "text": "添几点白，像霜降在枝果上" },
+        { "image": "/images/step6.png", "text": "画几片落叶，显秋末" },
+        { "image": "null", "text": "涂橙红和棕褐，霜降摘柿子" }
+      ],
+      "colors": [
+        "#FF69B4",
+        "#FF4500",
+        "#F59E0B",
+        "#8B4513",
+        "#FFFFFF",
+        "#000000",
+        "#D2B48C",
+        "#7CCD7C",
+        "#FFD700"
+      ]
+    },
+    {
+      "displayName": "立冬",
+      "imageUrl": ["/images/solar24/lidong.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画饺子，先画半圆形饺子皮" },
+        { "image": "/images/step2.png", "text": "饺子皮边缘画波浪线，捏褶" },
+        { "image": "/images/step3.png", "text": "画多个饺子，摆一盘" },
+        { "image": "/images/step4.png", "text": "饺子下画圆形盘子" },
+        { "image": "/images/step5.png", "text": "盘边加短线，装饰" },
+        { "image": "/images/step6.png", "text": "添热气线，显刚出锅" },
+        { "image": "null", "text": "涂白黄和青色，立冬吃饺子" }
+      ],
+      "colors": [
+        "#4682B4",
+        "#FFFFFF",
+        "#FFD700",
+        "#F0E68C",
+        "#000000",
+        "#87CEEB",
+        "#FFB6C1",
+        "#34C759",
+        "#FF3B30"
+      ]
+    },
+    {
+      "displayName": "小雪",
+      "imageUrl": ["/images/solar24/xiaoxue.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画腌菜坛，先画圆柱形坛身" },
+        { "image": "/images/step2.png", "text": "坛身上画圆形坛口，略窄" },
+        { "image": "/images/step3.png", "text": "坛口画小圆形坛盖" },
+        { "image": "/images/step4.png", "text": "坛身加横线，装饰纹路" },
+        { "image": "/images/step5.png", "text": "坛旁画青菜，待腌制" },
+        { "image": "/images/step6.png", "text": "添几点，像小雪粒" },
+        { "image": "null", "text": "涂棕褐和绿色，小雪腌菜储" }
+      ],
+      "colors": [
+        "#B0C4DE",
+        "#8B4513",
+        "#A0522D",
+        "#7CCD7C",
+        "#FFFFFF",
+        "#000000",
+        "#D2B48C",
+        "#34C759",
+        "#FFD700"
+      ]
+    },
+    {
+      "displayName": "大雪",
+      "imageUrl": ["/images/solar24/daxue.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画雪人，先画圆形雪人身" },
+        { "image": "/images/step2.png", "text": "雪人身上方画小圆雪人头" },
+        { "image": "/images/step3.png", "text": "雪人头画黑圆眼睛，纽扣做" },
+        { "image": "/images/step4.png", "text": "画胡萝卜形鼻子，短线嘴" },
+        { "image": "/images/step5.png", "text": "雪人身插树枝手臂" },
+        { "image": "/images/step6.png", "text": "添雪花，像大雪天" },
+        { "image": "null", "text": "涂白黑和橙色，大雪堆雪人" }
+      ],
+      "colors": [
+        "#F0F8FF",
+        "#FFFFFF",
+        "#000000",
+        "#FF6347",
+        "#D2B48C",
+        "#8B4513",
+        "#FFD700",
+        "#34C759",
+        "#87CEEB"
+      ]
+    },
+    {
+      "displayName": "冬至",
+      "imageUrl": ["/images/solar24/dongzhi.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画汤圆，先画圆形碗" },
+        { "image": "/images/step2.png", "text": "碗里画多个圆形汤圆" },
+        { "image": "/images/step3.png", "text": "汤圆旁画热气线，刚煮好" },
+        { "image": "/images/step4.png", "text": "碗边画小勺子，放旁边" },
+        { "image": "/images/step5.png", "text": "碗加横线，装饰纹路" },
+        { "image": "/images/step6.png", "text": "添几点，像汤圆汤里的糖" },
+        { "image": "null", "text": "涂白黄和青色，冬至食汤圆" }
+      ],
+      "colors": [
+        "#FFD700",
+        "#FFFFFF",
+        "#F0E68C",
+        "#4682B4",
+        "#000000",
+        "#87CEEB",
+        "#FFB6C1",
+        "#34C759",
+        "#FF3B30"
+      ]
+    },
+    {
+      "displayName": "小寒",
+      "imageUrl": ["/images/solar24/xiaohan.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画暖炉，先画方形炉身" },
+        { "image": "/images/step2.png", "text": "炉身上画长方形炉口" },
+        { "image": "/images/step3.png", "text": "炉口画红色，像炭火" },
+        { "image": "/images/step4.png", "text": "炉身两侧画小圆形炉耳" },
+        { "image": "/images/step5.png", "text": "炉下画短腿，支撑炉身" },
+        { "image": "/images/step6.png", "text": "添热气线，显炉温暖" },
+        { "image": "null", "text": "涂棕黑和红色，小寒用暖炉" }
+      ],
+      "colors": [
+        "#87CEEB",
+        "#8B4513",
+        "#000000",
+        "#FF4500",
+        "#FF3B30",
+        "#FFFFFF",
+        "#D2B48C",
+        "#F59E0B",
+        "#FFD700"
+      ]
+    },
+    {
+      "displayName": "大寒",
+      "imageUrl": ["/images/solar24/dahan.png"],
+      "source": "节气象征",
+      "steps": [
+        { "image": "/images/step1.png", "text": "画鞭炮，先画长直线炮仗串" },
+        { "image": "/images/step2.png", "text": "炮仗串上画多个小长方形炮仗" },
+        { "image": "/images/step3.png", "text": "炮仗顶端画小圆点，引线" },
+        { "image": "/images/step4.png", "text": "添火花线，像鞭炮待放" },
+        { "image": "/images/step5.png", "text": "炮仗加短线，装饰" },
+        { "image": "/images/step6.png", "text": "画红纸纹，显年味" },
+        { "image": "null", "text": "涂红金和黑色，大寒盼年味" }
+      ],
+      "colors": [
+        "#DC143C",
+        "#FF3B30",
+        "#FFD700",
+        "#F0E68C",
+        "#000000",
+        "#FFFFFF",
+        "#D2B48C",
+        "#8B4513",
+        "#FFB6C1"
+      ]
+    }
+  ]
+}

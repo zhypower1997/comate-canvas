@@ -1,0 +1,463 @@
+{
+  "animal": [
+    {
+      "name": "猫头鹰",
+      "color": "#a3c38b",
+      "subtitle": "动物系列",
+      "content": "智慧的猫头鹰",
+      "subtitle1": "夜晚的守护者"
+    },
+    {
+      "name": "袋鼠",
+      "color": "#c3a38b",
+      "subtitle": "动物系列",
+      "content": "跳跃的袋鼠",
+      "subtitle1": "澳大利亚的象征"
+    },
+    {
+      "name": "海豚",
+      "color": "#8bbf9b",
+      "subtitle": "动物系列",
+      "content": "活泼的海豚",
+      "subtitle1": "海洋的精灵"
+    },
+    {
+      "name": "蝙蝠",
+      "color": "#8bbf9b",
+      "subtitle": "动物系列",
+      "content": "夜行的蝙蝠",
+      "subtitle1": "天空的猎手"
+    },
+    {
+      "name": "狐狸",
+      "color": "#c38bbf",
+      "subtitle": "动物系列",
+      "content": "狡猾的狐狸",
+      "subtitle1": "森林的智者"
+    },
+    {
+      "name": "海豚",
+      "color": "#a3c38b",
+      "subtitle": "动物系列",
+      "content": "友好的海豚",
+      "subtitle1": "海洋的伴侣"
+    },
+    {
+      "name": "猴子",
+      "color": "#c38bbf",
+      "subtitle": "动物系列",
+      "content": "活泼的猴子",
+      "subtitle1": "丛林的顽童"
+    },
+    {
+      "name": "猴子",
+      "color": "#c38bbf",
+      "subtitle": "动物系列",
+      "content": "顽皮的猴子",
+      "subtitle1": "丛林的精灵"
+    },
+    {
+      "name": "狮子",
+      "color": "#bf9bbf",
+      "subtitle": "动物系列",
+      "content": "威武的狮子",
+      "subtitle1": "草原之王"
+    },
+    {
+      "name": "大象",
+      "color": "#a3c38b",
+      "subtitle": "动物系列",
+      "content": "温和的大象",
+      "subtitle1": "记忆的长河"
+    },
+    {
+      "name": "熊猫",
+      "color": "#9b9bbf",
+      "subtitle": "动物系列",
+      "content": "可爱的熊猫",
+      "subtitle1": "濒危的国宝"
+    },
+    {
+      "name": "狗",
+      "color": "#bf9bbf",
+      "subtitle": "动物系列",
+      "content": "忠诚的狗",
+      "subtitle1": "人类的朋友"
+    },
+    {
+      "name": "兔子",
+      "color": "#FFD166",
+      "subtitle": "动物系列",
+      "content": "可爱的兔子",
+      "subtitle1": "想吃一个萝卜"
+    },
+    {
+      "name": "狼",
+      "color": "#c3a38b",
+      "subtitle": "动物系列",
+      "content": "孤独的狼",
+      "subtitle1": "月夜的歌者"
+    },
+    {
+      "name": "鹿",
+      "color": "#9bbf9b",
+      "subtitle": "动物系列",
+      "content": "优雅的鹿",
+      "subtitle1": "森林的使者"
+    },
+    {
+      "name": "蛇",
+      "color": "#bf9bbf",
+      "subtitle": "动物系列",
+      "content": "神秘的蛇",
+      "subtitle1": "丛林的隐匿者"
+    },
+    {
+      "name": "猫",
+      "color": "#9bbf9b",
+      "subtitle": "动物系列",
+      "content": "温柔的猫",
+      "subtitle1": "家的守护者"
+    },
+    {
+      "name": "狐狸",
+      "color": "#c3a38b",
+      "subtitle": "动物系列",
+      "content": "聪明的狐狸",
+      "subtitle1": "森林的智者"
+    },
+    {
+      "name": "猴子",
+      "color": "#c38bbf",
+      "subtitle": "动物系列",
+      "content": "机灵的猴子",
+      "subtitle1": "丛林的跳跃者"
+    },
+    {
+      "name": "企鹅",
+      "color": "#8bbf9b",
+      "subtitle": "动物系列",
+      "content": "可爱的企鹅",
+      "subtitle1": "南极的使者"
+    }
+  ],
+  "food": [
+    {
+      "name": "苹果",
+      "color": "#8dc37b",
+      "subtitle": "水果系列",
+      "content": "脆甜的苹果",
+      "subtitle1": "想吃一个"
+    },
+    {
+      "name": "香蕉",
+      "color": "#7bc3a3",
+      "subtitle": "水果系列",
+      "content": "大个的香蕉",
+      "subtitle1": "一起分享"
+    },
+    {
+      "name": "椰子",
+      "color": "#32cd32",
+      "subtitle": "水果系列",
+      "content": "清凉的椰子",
+      "subtitle1": "热带风情"
+    },
+    {
+      "name": "猕猴桃",
+      "color": "#c0c0c0",
+      "subtitle": "水果系列",
+      "content": "营养的猕猴桃",
+      "subtitle1": "富含维生素"
+    },
+    {
+      "name": "芒果",
+      "color": "#ffe5b4",
+      "subtitle": "水果系列",
+      "content": "香甜的芒果",
+      "subtitle1": "热带风情"
+    },
+    {
+      "name": "橄榄",
+      "color": "#000080",
+      "subtitle": "水果系列",
+      "content": "苦涩的橄榄",
+      "subtitle1": "独特风味"
+    },
+    {
+      "name": "柠檬",
+      "color": "#ffff00",
+      "subtitle": "水果系列",
+      "content": "酸酸的柠檬",
+      "subtitle1": "清新口气"
+    },
+    {
+      "name": "菠萝",
+      "color": "#b2dfb2",
+      "subtitle": "水果系列",
+      "content": "香甜的菠萝",
+      "subtitle1": "热带水果"
+    },
+    {
+      "name": "葡萄",
+      "color": "#708090",
+      "subtitle": "水果系列",
+      "content": "晶莹的葡萄",
+      "subtitle1": "酸甜适中"
+    },
+    {
+      "name": "草莓",
+      "color": "#ff4040",
+      "subtitle": "水果系列",
+      "content": "香甜的草莓",
+      "subtitle1": "甜美可口"
+    },
+    {
+      "name": "荔枝",
+      "color": "#ffd700",
+      "subtitle": "水果系列",
+      "content": "甜美的荔枝",
+      "subtitle1": "夏季水果"
+    },
+    {
+      "name": "樱桃",
+      "color": "#9932cc",
+      "subtitle": "水果系列",
+      "content": "小巧的樱桃",
+      "subtitle1": "美味精致"
+    },
+    {
+      "name": "龙眼",
+      "color": "#8b4513",
+      "subtitle": "水果系列",
+      "content": "香甜的龙眼",
+      "subtitle1": "滋补佳品"
+    },
+    {
+      "name": "橙子",
+      "color": "#ff8c00",
+      "subtitle": "水果系列",
+      "content": "多汁的橙子",
+      "subtitle1": "补充维生素"
+    },
+    {
+      "name": "梨",
+      "color": "#c3e37d",
+      "subtitle": "水果系列",
+      "content": "多汁的梨",
+      "subtitle1": "润肺佳品"
+    },
+    {
+      "name": "哈密瓜",
+      "color": "#f08080",
+      "subtitle": "水果系列",
+      "content": "香甜的哈密瓜",
+      "subtitle1": "香甜多汁"
+    },
+    {
+      "name": "西瓜",
+      "color": "#00ff7f",
+      "subtitle": "水果系列",
+      "content": "清凉的西瓜",
+      "subtitle1": "夏日解暑"
+    },
+    {
+      "name": "柿子",
+      "color": "#e67e22",
+      "subtitle": "水果系列",
+      "content": "甜美的柿子",
+      "subtitle1": "秋季美味"
+    },
+    {
+      "name": "石榴",
+      "color": "#ff69b4",
+      "subtitle": "水果系列",
+      "content": "多汁的石榴",
+      "subtitle1": "营养丰富"
+    },
+    {
+      "name": "山竹",
+      "color": "#ffa07a",
+      "subtitle": "水果系列",
+      "content": "甜美的山竹",
+      "subtitle1": "热带水果"
+    },
+    {
+      "name": "兔子",
+      "color": "#FFD166",
+      "subtitle": "动物系列",
+      "content": "可爱的兔子",
+      "subtitle1": "想吃一个萝卜"
+    }
+  ],
+  "tool": [
+    {
+      "name": "立春",
+      "color": "#7ccd7c",
+      "subtitle": "节气象征",
+      "content": "春牛（泥塑 / 剪纸）",
+      "subtitle1": "象征春耕启"
+    },
+    {
+      "name": "雨水",
+      "color": "#87ceeb",
+      "subtitle": "节气象征",
+      "content": "油纸伞",
+      "subtitle1": "应节气多雨"
+    },
+    {
+      "name": "惊蛰",
+      "color": "#9acd32",
+      "subtitle": "节气象征",
+      "content": "桃木枝（带芽）",
+      "subtitle1": "驱邪唤草木"
+    },
+    {
+      "name": "春分",
+      "color": "#b0e2ff",
+      "subtitle": "节气象征",
+      "content": "纸鸢（风筝）",
+      "subtitle1": "春日放风筝"
+    },
+    {
+      "name": "清明",
+      "color": "#90ee90",
+      "subtitle": "节气象征",
+      "content": "柳枝花束",
+      "subtitle1": "折柳显生机"
+    },
+    {
+      "name": "谷雨",
+      "color": "#8fbc8f",
+      "subtitle": "节气象征",
+      "content": "茶芽（新茶）",
+      "subtitle1": "采茶黄金期"
+    },
+    {
+      "name": "立夏",
+      "color": "#ffb6c1",
+      "subtitle": "节气象征",
+      "content": "青梅（带枝）",
+      "subtitle1": "立夏尝青梅"
+    },
+    {
+      "name": "小满",
+      "color": "#f0e68c",
+      "subtitle": "节气象征",
+      "content": "麦穗（灌浆期）",
+      "subtitle1": "麦穗满未熟"
+    },
+    {
+      "name": "芒种",
+      "color": "#d2b48c",
+      "subtitle": "节气象征",
+      "content": "镰刀（配稻穗）",
+      "subtitle1": "夏收夏种忙"
+    },
+    {
+      "name": "夏至",
+      "color": "#ff6347",
+      "subtitle": "节气象征",
+      "content": "蒲扇",
+      "subtitle1": "暑天用蒲扇"
+    },
+    {
+      "name": "小暑",
+      "color": "#40e0d0",
+      "subtitle": "节气象征",
+      "content": "荷花（花苞 / 绽放）",
+      "subtitle1": "小暑荷盛放"
+    },
+    {
+      "name": "大暑",
+      "color": "#ff4500",
+      "subtitle": "节气象征",
+      "content": "西瓜（切块）",
+      "subtitle1": "大暑食西瓜"
+    },
+    {
+      "name": "立秋",
+      "color": "#cd5c5c",
+      "subtitle": "节气象征",
+      "content": "枫叶（初红）",
+      "subtitle1": "立秋枫初红"
+    },
+    {
+      "name": "处暑",
+      "color": "#f4a460",
+      "subtitle": "节气象征",
+      "content": "芦苇（芦花）",
+      "subtitle1": "处暑芦花飘"
+    },
+    {
+      "name": "白露",
+      "color": "#e6e6fa",
+      "subtitle": "节气象征",
+      "content": "桂花（带枝）",
+      "subtitle1": "白露桂飘香"
+    },
+    {
+      "name": "秋分",
+      "color": "#daa520",
+      "subtitle": "节气象征",
+      "content": "稻穗（成熟）",
+      "subtitle1": "秋分庆丰收"
+    },
+    {
+      "name": "寒露",
+      "color": "#dda0dd",
+      "subtitle": "节气象征",
+      "content": "菊花（盆栽）",
+      "subtitle1": "寒露赏菊花"
+    },
+    {
+      "name": "霜降",
+      "color": "#ff69b4",
+      "subtitle": "节气象征",
+      "content": "柿子（挂枝）",
+      "subtitle1": "霜降摘柿子"
+    },
+    {
+      "name": "立冬",
+      "color": "#4682b4",
+      "subtitle": "节气象征",
+      "content": "饺子（一盘）",
+      "subtitle1": "立冬吃饺子"
+    },
+    {
+      "name": "小雪",
+      "color": "#b0c4de",
+      "subtitle": "节气象征",
+      "content": "腌菜坛",
+      "subtitle1": "小雪腌菜储"
+    },
+    {
+      "name": "大雪",
+      "color": "#f0f8ff",
+      "subtitle": "节气象征",
+      "content": "雪人（简版）",
+      "subtitle1": "大雪堆雪人"
+    },
+    {
+      "name": "冬至",
+      "color": "#ffd700",
+      "subtitle": "节气象征",
+      "content": "汤圆（一碗）",
+      "subtitle1": "冬至食汤圆"
+    },
+    {
+      "name": "小寒",
+      "color": "#87ceeb",
+      "subtitle": "节气象征",
+      "content": "暖炉（炭火）",
+      "subtitle1": "小寒用暖炉"
+    },
+    {
+      "name": "大寒",
+      "color": "#dc143c",
+      "subtitle": "节气象征",
+      "content": "鞭炮（串状）",
+      "subtitle1": "大寒盼年味"
+    }
+  ]
+}

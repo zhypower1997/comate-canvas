@@ -1,0 +1,223 @@
+
+show_detail.png
+size: 2033,840
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Illustrated_book_front
+  rotate: false
+  xy: 1568, 397
+  size: 386, 443
+  orig: 386, 443
+  offset: 0, 0
+  index: -1
+Illustrated_book_in_left_bg
+  rotate: true
+  xy: 1152, 9
+  size: 386, 443
+  orig: 386, 443
+  offset: 0, 0
+  index: -1
+Illustrated_book_in_right_bg
+  rotate: false
+  xy: 1152, 397
+  size: 414, 443
+  orig: 414, 443
+  offset: 0, 0
+  index: -1
+Illustrated_info_bg
+  rotate: true
+  xy: 1912, 304
+  size: 91, 82
+  orig: 91, 82
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 0, 140
+  size: 1150, 700
+  orig: 1150, 700
+  offset: 0, 0
+  index: -1
+big_pic
+  rotate: false
+  xy: 0, 11
+  size: 222, 127
+  orig: 222, 127
+  offset: 0, 0
+  index: -1
+big_pic_bg
+  rotate: false
+  xy: 1597, 174
+  size: 313, 221
+  orig: 313, 221
+  offset: 0, 0
+  index: -1
+big_pic_name
+  rotate: false
+  xy: 1795, 3
+  size: 27, 13
+  orig: 27, 13
+  offset: 0, 0
+  index: -1
+close_btn_bg
+  rotate: false
+  xy: 1956, 463
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+close_btn_text
+  rotate: false
+  xy: 1972, 285
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+decals_bg1
+  rotate: false
+  xy: 595, 5
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+decals_bg2
+  rotate: false
+  xy: 1795, 18
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+decals_item
+  rotate: true
+  xy: 1597, 0
+  size: 172, 196
+  orig: 172, 196
+  offset: 0, 0
+  index: -1
+download_btn_bg
+  rotate: true
+  xy: 1112, 87
+  size: 51, 25
+  orig: 51, 25
+  offset: 0, 0
+  index: -1
+download_btn_text
+  rotate: false
+  xy: 433, 18
+  size: 25, 12
+  orig: 25, 12
+  offset: 0, 0
+  index: -1
+extra_btn_left
+  rotate: false
+  xy: 1912, 229
+  size: 58, 73
+  orig: 58, 73
+  offset: 0, 0
+  index: -1
+extra_btn_right
+  rotate: true
+  xy: 1956, 404
+  size: 57, 73
+  orig: 57, 73
+  offset: 0, 0
+  index: -1
+info_bg
+  rotate: false
+  xy: 224, 18
+  size: 207, 120
+  orig: 211, 120
+  offset: 0, 0
+  index: -1
+paper clip_left
+  rotate: false
+  xy: 1956, 606
+  size: 69, 74
+  orig: 69, 75
+  offset: 0, 1
+  index: -1
+paper clip_right
+  rotate: false
+  xy: 1956, 530
+  size: 69, 74
+  orig: 70, 75
+  offset: 0, 1
+  index: -1
+sharpicons_Monkey
+  rotate: false
+  xy: 1912, 185
+  size: 34, 42
+  orig: 34, 42
+  offset: 0, 0
+  index: -1
+sharpicons_meat
+  rotate: true
+  xy: 772, 0
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+sharpicons_scissor
+  rotate: false
+  xy: 730, 0
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+small_pic
+  rotate: true
+  xy: 1956, 721
+  size: 119, 69
+  orig: 119, 69
+  offset: 0, 0
+  index: -1
+small_pic_bg
+  rotate: false
+  xy: 433, 32
+  size: 160, 106
+  orig: 161, 106
+  offset: 0, 0
+  index: -1
+small_pic_bg_tag
+  rotate: true
+  xy: 838, 11
+  size: 29, 34
+  orig: 29, 35
+  offset: 0, 1
+  index: -1
+stamp
+  rotate: false
+  xy: 730, 42
+  size: 142, 96
+  orig: 142, 96
+  offset: 0, 0
+  index: -1
+sticky
+  rotate: false
+  xy: 874, 21
+  size: 117, 117
+  orig: 117, 117
+  offset: 0, 0
+  index: -1
+sticky_bg
+  rotate: false
+  xy: 993, 21
+  size: 117, 117
+  orig: 117, 117
+  offset: 0, 0
+  index: -1
+sticky_cotent
+  rotate: false
+  xy: 1956, 682
+  size: 77, 37
+  orig: 77, 37
+  offset: 0, 0
+  index: -1
+sticky_cotent_num
+  rotate: false
+  xy: 800, 11
+  size: 36, 29
+  orig: 36, 29
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,         // 已开启：跳过第三方库类型检查
+    "strict": false,              // 已关闭：降低类型检查严格度
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "noUnusedLocals": false,               // 关闭未使用变量的检查
+    "noUnusedParameters": false            // 关闭未使用参数的检查
+  },
+  "include": ["next-env.d.ts", ".next/types/**/*.ts", "src/**/*"], // 确保包含项目源码
+  "exclude": ["node_modules"]
+}

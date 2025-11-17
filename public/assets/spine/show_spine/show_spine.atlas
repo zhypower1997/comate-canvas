@@ -1,0 +1,69 @@
+
+show_spine.png
+size: 2013,802
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 0, 102
+  size: 1150, 700
+  orig: 1150, 700
+  offset: 0, 0
+  index: -1
+book_front
+  rotate: false
+  xy: 1152, 328
+  size: 386, 474
+  orig: 386, 474
+  offset: 0, 0
+  index: -1
+book_in_left
+  rotate: true
+  xy: 1540, 416
+  size: 386, 473
+  orig: 386, 473
+  offset: 0, 0
+  index: -1
+book_in_right
+  rotate: true
+  xy: 1540, 0
+  size: 414, 443
+  orig: 414, 443
+  offset: 0, 0
+  index: -1
+close_btn
+  rotate: false
+  xy: 303, 35
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+download_btn
+  rotate: true
+  xy: 144, 22
+  size: 78, 38
+  orig: 78, 38
+  offset: 0, 0
+  index: -1
+img_time
+  rotate: false
+  xy: 0, 4
+  size: 142, 96
+  orig: 142, 96
+  offset: 0, 0
+  index: -1
+left_btn
+  rotate: false
+  xy: 184, 27
+  size: 58, 73
+  orig: 58, 73
+  offset: 0, 0
+  index: -1
+right_btn
+  rotate: false
+  xy: 244, 27
+  size: 57, 73
+  orig: 57, 73
+  offset: 0, 0
+  index: -1

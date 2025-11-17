@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+html {
+  background-color: #f5efe4;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 自定义工具类（用于首页仿图样式） */
+/* 浅蓝波点背景 */
+.bg-polka {
+  background-color: #bfe4fb; /* 浅蓝底 */
+  background-image: radial-gradient(#ffffff8c 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+/* 纸质卡片风格容器 */
+.paper-card {
+  background: #f8f2e8; /* 奶油底色 */
+  border-radius: 16px;
+  border: 1px solid #eadfcd;
+  box-shadow:
+    0 10px 0 0 #e7d9c5, /* 底部硬阴影营造立体感 */
+    0 2px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* 大标题描边（贴纸感） */
+.title-stroke {
+  color: #6b21a8; /* 默认文案颜色会被子元素覆盖，这里仅作兜底 */
+  -webkit-text-stroke: 10px #ffffff; /* 厚白描边 */
+  paint-order: stroke fill;
+}
+
+/* 大标题投影，增强贴纸层次 */
+.title-shadow {
+  filter: drop-shadow(0 6px 0 rgba(0, 0, 0, 0.08));
+}
+
+/* CTA 渐变按钮 */
+.cta-gradient {
+  background: linear-gradient(180deg, #ffe58a 0%, #ffd34f 60%, #f4b93a 100%);
+}
+
+/* 圆形红章角标 */
+.badge-circle {
+  background: #ff6b6b;
+  border: 6px solid #ffd9d9;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* 波点背景滚动动画（对角向上、连续） */
+@keyframes polka-scroll {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    /* 与 background-size 等步长，保证无缝衔接 */
+    background-position: 48px -48px;
+  }
+}
+
+.animate-polka {
+  animation: polka-scroll 5s linear infinite;
+}
+
+/* 棋盘格背景（与动画兼容） */
+.bg-checker {
+  position: relative;
+  overflow: hidden; /* 防止伪元素溢出容器 */
+  background-color: #c9f1f3;
+  background-image: conic-gradient(
+    rgba(255, 255, 255, 0.55) 25%,
+    transparent 0 50%,
+    rgba(255, 255, 255, 0.55) 0 75%,
+    transparent 0
+  );
+  background-size: 48px 48px; /* 棋盘格大小 */
+  background-repeat: repeat;
+}
+
+.bg-checker::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(#8bcce8cf 0%, rgba(164, 205, 255, 0) 60%)
+}
+
+/* 橙色滑块样式 */
+.slider-orange::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f97316;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(249, 115, 22, 0.3);
+  transition: all 0.2s ease;
+}
+
+.slider-orange::-webkit-slider-thumb:hover {
+  background: #ea580c;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.4);
+}
+
+.slider-orange::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f97316;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(249, 115, 22, 0.3);
+  transition: all 0.2s ease;
+}
+
+.slider-orange::-moz-range-thumb:hover {
+  background: #ea580c;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.4);
+}
+
+.slider-orange::-webkit-slider-track {
+  height: 8px;
+  border-radius: 4px;
+  background: transparent;
+}
+
+.slider-orange::-moz-range-track {
+  height: 8px;
+  border-radius: 4px;
+  background: transparent;
+  border: none;
+}
+
+/* 响应式上内边距：≥1150px 为 32px，否则为 0 */
+.pt-responsive-1250 {
+  padding-top: 0px;
+}
+
+@media (min-width: 1250px) {
+  .pt-responsive-1250 {
+    padding-top: 32px;
+  }
+}

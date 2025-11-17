@@ -1,0 +1,118 @@
+
+bear.png
+size: 1248,855
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bear_outline
+  rotate: false
+  xy: 925, 0
+  size: 169, 153
+  orig: 170, 153
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 0, 155
+  size: 1150, 700
+  orig: 1150, 700
+  offset: 0, 0
+  index: -1
+dialog
+  rotate: false
+  xy: 0, 5
+  size: 923, 148
+  orig: 923, 148
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1096, 24
+  size: 144, 113
+  orig: 144, 113
+  offset: 0, 0
+  index: -1
+leaf
+  rotate: true
+  xy: 1152, 256
+  size: 57, 69
+  orig: 57, 69
+  offset: 0, 0
+  index: -1
+left_ear
+  rotate: false
+  xy: 1152, 197
+  size: 64, 57
+  orig: 64, 57
+  offset: 0, 0
+  index: -1
+left_eye
+  rotate: true
+  xy: 1235, 728
+  size: 12, 13
+  orig: 12, 13
+  offset: 0, 0
+  index: -1
+loading
+  rotate: true
+  xy: 1152, 315
+  size: 540, 61
+  orig: 540, 61
+  offset: 0, 0
+  index: -1
+loading_dot
+  rotate: false
+  xy: 1215, 753
+  size: 20, 18
+  orig: 20, 18
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 1237, 742
+  size: 29, 9
+  orig: 29, 9
+  offset: 0, 0
+  index: -1
+mouth_open
+  rotate: false
+  xy: 1215, 773
+  size: 30, 19
+  orig: 30, 19
+  offset: 0, 0
+  index: -1
+nose
+  rotate: false
+  xy: 1215, 739
+  size: 18, 12
+  orig: 18, 12
+  offset: 0, 0
+  index: -1
+right_ear
+  rotate: false
+  xy: 1152, 139
+  size: 64, 56
+  orig: 64, 58
+  offset: 0, 2
+  index: -1
+right_eye
+  rotate: true
+  xy: 1215, 725
+  size: 12, 13
+  orig: 12, 13
+  offset: 0, 0
+  index: -1
+saihong_left
+  rotate: false
+  xy: 1215, 794
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+saihong_right
+  rotate: false
+  xy: 1215, 825
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
