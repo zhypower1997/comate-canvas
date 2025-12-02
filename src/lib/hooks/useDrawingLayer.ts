@@ -12,6 +12,7 @@ interface DrawingLayerOptions {
   brushColor?: number;
   brushType?: BrushType;
   brushSize?: number;
+  jitterAmount?: number; // 笔刷抖动幅度
   opacity?: number;
   maxCacheSize?: number;
   onClick?: () => void;
@@ -24,6 +25,7 @@ interface DrawingLayerState {
   brushColor: number; // 绘图颜色
   brushType: BrushType; // 笔刷类型
   brushSize: number; // 笔刷大小
+  jitterAmount: number; // 笔刷抖动幅度
   opacity: number; // 透明度
   // 可以根据需要扩展更多绘图选项
 }
@@ -41,6 +43,7 @@ interface LayerPoint {
     type: BrushType;
     color: number;
     size: number;
+    jitterAmount: number; // 笔刷抖动幅度
   };
   random: number[];
 }
@@ -54,7 +57,7 @@ interface DrawingLayerControls {
   enableInteraction: () => void; // 启用图层交互
   disableInteraction: () => void; // 禁用图层交互
   getLayer: () => PIXI.Container | null; // 获取图层对象
-  setBrush: (type: BrushType, color?: number, size?: number) => void;
+  setBrush: (type: BrushType, color?: number, size?: number, jitterAmount?: number) => void;
   undo: () => void;
   redo: () => void;
 }
@@ -79,6 +82,7 @@ export function useDrawingLayer(
     brushColor = 0x000000,
     brushType = BrushType.PEN,
     brushSize = 3,
+    jitterAmount = 0.1, // 默认抖动幅度
     opacity = 1,
     maxCacheSize = 10,
     onClick = () => { },
@@ -92,6 +96,7 @@ export function useDrawingLayer(
     brushColor: brushColor, // 默认黑色
     brushType: brushType,
     brushSize: brushSize, // 默认笔刷大小
+    jitterAmount: jitterAmount, // 默认抖动幅度
     opacity: opacity, // 默认透明度
     // 可以根据需要扩展更多绘图选项
   });
@@ -242,7 +247,7 @@ export function useDrawingLayer(
 
   const setDrawBrush = (
     brush: PIXI.Graphics,
-    brushConfig: { type: BrushType; color: number; size: number },
+    brushConfig: { type: BrushType; color: number; size: number; jitterAmount: number },
     random: number[],
     renderFrame: number
   ) => {
@@ -279,11 +284,12 @@ export function useDrawingLayer(
         brush.endFill();
         break;
       case BrushType.COLOR_PEN:
+        const jitterFactor = brushConfig.jitterAmount || 0.1; // 使用传入的抖动幅度，默认为0.1
         const positionConfig = [
-          { x: -brushConfig.size / 10, y: -brushConfig.size / 10 },
-          { x: brushConfig.size / 10, y: -brushConfig.size / 10 },
-          { x: -brushConfig.size / 10, y: brushConfig.size / 10 },
-          { x: brushConfig.size / 10, y: brushConfig.size / 10 },
+          { x: -brushConfig.size * jitterFactor, y: -brushConfig.size * jitterFactor },
+          { x: brushConfig.size * jitterFactor, y: -brushConfig.size * jitterFactor },
+          { x: -brushConfig.size * jitterFactor, y: brushConfig.size * jitterFactor },
+          { x: brushConfig.size * jitterFactor, y: brushConfig.size * jitterFactor },
         ];
         brush.beginFill(color, 1); // 白色半透明
         brush.drawCircle(
@@ -325,6 +331,7 @@ export function useDrawingLayer(
         type: stateRef.current.brushType,
         color: stateRef.current.brushColor,
         size: stateRef.current.brushSize,
+        jitterAmount: stateRef.current.jitterAmount,
       },
       random: new Array(3).fill(0).map(() => Math.floor(Math.random() * 5)),
     };
@@ -377,6 +384,7 @@ export function useDrawingLayer(
         type: stateRef.current.brushType,
         color: stateRef.current.brushColor,
         size: stateRef.current.brushSize,
+        jitterAmount: stateRef.current.jitterAmount,
       },
       random: randomNumber,
     }));
@@ -533,12 +541,14 @@ export function useDrawingLayer(
   const setBrush = (
     brushType: BrushType,
     color?: number,
-    brushSize?: number
+    brushSize?: number,
+    jitterAmount?: number
   ) => {
     updateState({
       brushColor: color,
       brushType: brushType,
       brushSize: brushSize,
+      jitterAmount: jitterAmount,
     });
   };
 

@@ -137,6 +137,24 @@ export function useGuideLineLayer(
     },
 
     /**
+     * 更新参考线图层的大小
+     * @param newHeight 新的高度值
+     */
+    updateSize: (newHeight: number) => {
+      if (!spriteRef.current || !spriteRef.current.texture) return;
+
+      const aspectRatio =
+        spriteRef.current.texture.baseTexture.width / spriteRef.current.texture.baseTexture.height;
+
+      // 更新精灵大小
+      spriteRef.current.height = newHeight;
+      spriteRef.current.width = newHeight * aspectRatio;
+
+      // 保持居中位置
+      spriteRef.current.position.set(x, y);
+    },
+
+    /**
      * 更新参考线图片
      * @param newImageUrl 新的图片URL
      */

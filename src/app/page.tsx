@@ -16,6 +16,7 @@ interface Brush {
   type: BrushType;
   color: number;
   size: number;
+  jitterAmount: number; // 添加抖动幅度参数
 }
 
 enum BoneEvent {
@@ -96,7 +97,13 @@ function hexToColor(hex, useRgb = false) {
 }
 
 // 颜色选择器组件，使用 useSearchParams
-function ColorPicker({ brush, setBrush }: { brush: Brush; setBrush: (brush: Brush) => void }) {
+function ColorPicker({
+  brush,
+  setBrush,
+}: {
+  brush: Brush;
+  setBrush: (brush: Brush) => void;
+}) {
   const searchParams = useSearchParams();
   const showColorPicker = searchParams.get('showColorPicker') === 'true';
 
@@ -108,10 +115,7 @@ function ColorPicker({ brush, setBrush }: { brush: Brush; setBrush: (brush: Brus
         type="color"
         value={hexToColor(brush.color)}
         onChange={(e) => {
-          const newColor = parseInt(
-            e.target.value.replace('#', ''),
-            16,
-          );
+          const newColor = parseInt(e.target.value.replace('#', ''), 16);
           setBrush({
             ...brush,
             color: newColor,
@@ -137,6 +141,7 @@ export default function PainterPage() {
     type: BrushType.PEN,
     color: 0x000000,
     size: 10,
+    jitterAmount: 0.1, // 默认抖动幅度
   });
   const [displayName, setDisplayName] = useState('');
   const [source, setSource] = useState('animal');
@@ -162,6 +167,8 @@ export default function PainterPage() {
 
   const [currentStep, setCurrentStep] = useState<number>(0);
   const [isGuideLineVisible, setIsGuideLineVisible] = useState<boolean>(true);
+  const [guideLineSize, setGuideLineSize] = useState<number>(400); // 默认垫图大小
+  const [isGuideLineLocked, setIsGuideLineLocked] = useState<boolean>(false); // 垫图锁定状态
   const [isUndo, setIsUndo] = useState<boolean>(false);
   const [customImageUrl, setCustomImageUrl] = useState<string>('null');
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -171,6 +178,8 @@ export default function PainterPage() {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const toolRef = useRef<BrushType>(BrushType.PEN);
   const [isToolPanelOpen, setIsToolPanelOpen] = useState<boolean>(false);
+  const [isBrushSettingsOpen, setIsBrushSettingsOpen] =
+    useState<boolean>(false);
   useEffect(() => {
     toolRef.current = brush.type;
   }, [brush.type]);
@@ -184,8 +193,8 @@ export default function PainterPage() {
     });
     const randomIndex = Math.floor(
       Math.random() *
-      generateData.data.find((item) => item.displayName === displayName)
-        ?.imageUrl?.length || 0,
+        generateData.data.find((item) => item.displayName === displayName)
+          ?.imageUrl?.length || 0,
     );
     setCustomImageUrl(
       generateData.data.find((item) => item.displayName === displayName)
@@ -307,14 +316,18 @@ export default function PainterPage() {
 
     document.addEventListener('keydown', (event) => {
       // 撤销快捷键：Ctrl+Z（Windows/Linux）或 Command+Z（Mac）
-      const isUndo = (event.ctrlKey || event.metaKey) && event.key === 'z' && !event.shiftKey;
+      const isUndo =
+        (event.ctrlKey || event.metaKey) &&
+        event.key === 'z' &&
+        !event.shiftKey;
 
       // 重做快捷键：
       // - Windows/Linux: Ctrl+Y
       // - Mac: Command+Shift+Z 或 Command+Y
       const isRedo =
-        (event.ctrlKey && !event.metaKey && event.key === 'y') ||  // Windows/Linux
-        (event.metaKey && ((event.shiftKey && event.key === 'z') || event.key === 'y'));  // Mac
+        (event.ctrlKey && !event.metaKey && event.key === 'y') || // Windows/Linux
+        (event.metaKey &&
+          ((event.shiftKey && event.key === 'z') || event.key === 'y')); // Mac
 
       if (isUndo) {
         event.preventDefault(); // 阻止默认行为（如浏览器自带撤销）
@@ -426,9 +439,25 @@ export default function PainterPage() {
     setBrush((prev) => ({
       ...prev,
       size: Math.max(
-        5,
-        Math.min(30, isIncrease ? prev.size + 2 : prev.size - 2),
+        1,
+        Math.min(30, isIncrease ? prev.size + 1 : prev.size - 1),
       ),
+    }));
+  };
+
+  // 处理自定义画笔粗细变化
+  const handleCustomSizeChange = (newSize: number) => {
+    setBrush((prev) => ({
+      ...prev,
+      size: newSize,
+    }));
+  };
+
+  // 处理抖动幅度变化
+  const handleJitterChange = (amount: number) => {
+    setBrush((prev) => ({
+      ...prev,
+      jitterAmount: amount,
     }));
   };
 
@@ -438,19 +467,24 @@ export default function PainterPage() {
 
   useEffect(() => {
     if (!spineControls) return;
-    const { color, size, type } = brush;
+    const { color, size, type, jitterAmount } = brush;
     spineControls?.setSlotProperty('single_color', 'color', color);
     spineControls?.setSlotProperty('size_ctr_dot', 'color', color);
     spineControls?.setSlotProperty('size_ctr_dot', 'size', 1 + (size - 5) / 25);
     switch (type) {
       case BrushType.PEN:
-        drawingControls.setBrush(BrushType.PEN, color, size);
+        drawingControls.setBrush(BrushType.PEN, color, size, jitterAmount);
         break;
       case BrushType.ERASER:
-        drawingControls.setBrush(BrushType.ERASER, color, size);
+        drawingControls.setBrush(BrushType.ERASER, color, size, jitterAmount);
         break;
       case BrushType.COLOR_PEN:
-        drawingControls.setBrush(BrushType.COLOR_PEN, color, size);
+        drawingControls.setBrush(
+          BrushType.COLOR_PEN,
+          color,
+          size,
+          jitterAmount,
+        );
         break;
     }
   }, [brush]);
@@ -501,7 +535,7 @@ export default function PainterPage() {
   });
 
   // 使用辅助线图层hook
-  const { updateImage, show, hide } = useGuideLineLayer(
+  const { updateImage, show, hide, updateSize } = useGuideLineLayer(
     app,
     {
       imageUrl: customImageUrl,
@@ -524,13 +558,22 @@ export default function PainterPage() {
       updateImage(urlToUse);
       if (isGuideLineVisible) {
         show();
+        // 确保垫图大小正确
+        updateSize(guideLineSize);
       } else {
         hide();
       }
     } else {
       hide();
     }
-  }, [currentStep, customImageUrl, updateImage, isGuideLineVisible, aiData]);
+  }, [
+    currentStep,
+    customImageUrl,
+    updateImage,
+    isGuideLineVisible,
+    aiData,
+    guideLineSize,
+  ]);
 
   // 初始化Spine动画图层
   const [spineState, spineControls] = useSpineLayer(
@@ -689,15 +732,11 @@ export default function PainterPage() {
     }
   }, [initialColors]);
 
-
-
   return (
     <div
       className="min-h-screen bg-[#f5efe4] pt-responsive-1250"
       ref={outerRef}
     >
-
-
       <div
         className="flex justify-center flex-col mx-auto relative"
         style={{ width: '1150px', zoom: scale }}
@@ -794,30 +833,99 @@ export default function PainterPage() {
           }}
         ></div>
         <header
-          className="paper-card mb-6 px-6 py-4 flex justify-between items-center w-[1150px] h-[700px]"
-          style={{ height: '97px' }}
+          className="paper-card mb-6 px-6 py-4 w-[1150px]"
+          style={{ minHeight: '110px' }}
         >
-          <div className="flex flex-row justify-between items-center">
-            <button
-              className="bg-[#ffffff] rounded-[6px] p-[6px] pl-[12px] pr-[12px] mr-4"
-              onClick={() => setIsToolPanelOpen(!isToolPanelOpen)}
-            >
-              {isToolPanelOpen ? '收起工具' : '展开工具'}
-            </button>
-            {isToolPanelOpen && (
-              <>
-                {/* 上传图片按钮 */}
-                <button
-                  onClick={triggerFileUpload}
-                  className="mr-4 bg-blue-500 hover:bg-blue-600 transition-colors duration-200 rounded-full p-3 shadow-lg border border-blue-300 z-20 text-white flex flex-row items-center"
-                  title="点击上传或直接粘贴"
-                >
-                  <>
+          {/* 新的工具栏设计 */}
+          <div className="flex flex-col">
+            {/* 主工具栏 - 始终显示的核心功能 */}
+            <div className="flex items-center justify-between mb-3">
+              <div className="flex items-center">
+                {/* 左侧工具组 - 画布操作 */}
+                <div className="flex items-center space-x-2 mr-6 bg-white/90 p-2 rounded-lg shadow-sm border border-gray-100">
+                  <button
+                    className="tooltip-wrapper flex items-center justify-center w-10 h-10 bg-white hover:bg-gray-100 rounded-md transition-all"
+                    onClick={() => {
+                      drawingControls?.clear();
+                    }}
+                    title="清空画布"
+                  >
                     <svg
-                      className="w-6 h-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
                       fill="none"
-                      stroke="currentColor"
                       viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                      />
+                    </svg>
+                  </button>
+                  <button
+                    className="tooltip-wrapper flex items-center justify-center w-10 h-10 bg-white hover:bg-gray-100 rounded-md transition-all"
+                    onClick={() => {
+                      drawingControls.undo();
+                    }}
+                    title="撤销"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                      />
+                    </svg>
+                  </button>
+                  <button
+                    className="tooltip-wrapper flex items-center justify-center w-10 h-10 bg-white hover:bg-gray-100 rounded-md transition-all"
+                    onClick={() => {
+                      drawingControls.redo();
+                    }}
+                    title="重做"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                {/* 右侧按钮组 - 预览和导航 */}
+                <div className="flex items-center space-x-2 mr-6 bg-white/90 p-2 rounded-lg shadow-sm border border-gray-100">
+                  <button
+                    className="tooltip-wrapper flex items-center space-x-1 px-3 py-2 bg-white hover:bg-gray-100 rounded-md transition-all"
+                    onClick={() => {
+                      router.push('/showdetail');
+                    }}
+                    title="查看收藏的作品"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
                     >
                       <path
                         strokeLinecap="round"
@@ -826,16 +934,9 @@ export default function PainterPage() {
                         d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
                       />
                     </svg>
-                  </>
-                  <div className="flex flex-col align-middle justify-center items-center mr-4">
-                    <span className="text-[#ffffff] text-[16px] font-bold">上传参考图</span>
-                    <span className="text-[#ffffff] text-[12px] ml-[12px]">
-                      可Ctrl+V直接粘贴
-                    </span>
-                  </div>
-
-
-                </button>
+                    <span>欣赏图鉴</span>
+                  </button>
+                </div>
 
                 {/* 隐藏的文件输入 */}
                 <input
@@ -845,75 +946,321 @@ export default function PainterPage() {
                   onChange={handleFileUpload}
                   style={{ display: 'none' }}
                 />
+              </div>
 
-                <div className="text-2xl text-[#222222] ml-[12px] text-[16px]">
-                  调色盘默认颜色
-                  {/* 添加颜色选择器面板 */}
-                  <div className="grid grid-cols-10">
-                    {Object.entries(initialColors).map(
-                      ([colorKey, colorValue]) => {
-                        return (
-                          <div
-                            key={colorKey}
-                            className="flex flex-col items-center"
-                          >
-                            <div className="flex items-center gap-2">
-                              <input
-                                type="color"
-                                value={hexToColor(colorValue)}
-                                onChange={(e) => {
-                                  const newColor = parseInt(
-                                    e.target.value.replace('#', ''),
-                                    16,
-                                  );
-                                  handleInitialColorChange(colorKey, newColor);
-                                }}
-                                className="w-8 h-8 rounded border border-gray-300 cursor-pointer"
-                              />
+              {/* 高级工具折叠按钮 */}
+              <div>
+                <button
+                  className={`flex items-center space-x-1 px-3 py-2 rounded-md ${
+                    isToolPanelOpen
+                      ? 'bg-indigo-50 text-indigo-600'
+                      : 'bg-white'
+                  } shadow-sm hover:shadow transition-all border border-gray-200`}
+                  onClick={() => setIsToolPanelOpen(!isToolPanelOpen)}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
+                    />
+                  </svg>
+                  <span>
+                    {isToolPanelOpen ? '收起高级工具' : '展开高级工具'}
+                  </span>
+                </button>
+
+                <div className="hidden">
+                  <Suspense fallback={null}>
+                    <ColorPicker brush={brush} setBrush={setBrush} />
+                  </Suspense>
+                </div>
+              </div>
+            </div>
+
+            {/* 展开的高级工具面板 */}
+            {isToolPanelOpen && (
+              <div className="bg-gray-50/90 backdrop-blur-sm rounded-lg border border-gray-200 p-4 shadow-md mb-3 transition-all animation-expand">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {/* 左侧面板 - 上传与垫图设置 */}
+                  <div className="space-y-4">
+                    {/* 上传参考图区块 */}
+                    <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-100">
+                      <h3 className="font-medium text-gray-800 mb-3 flex items-center">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-5 w-5 mr-2"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                          />
+                        </svg>
+                        参考图设置
+                      </h3>
+
+                      <button
+                        onClick={triggerFileUpload}
+                        className="w-full flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white transition-colors duration-200 rounded-lg py-3 px-4 mb-4 shadow-sm"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-5 w-5 mr-2"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
+                          />
+                        </svg>
+                        <div className="flex flex-col">
+                          <span className="font-medium">上传参考图</span>
+                          <span className="text-xs text-blue-100">
+                            可Ctrl+V直接粘贴
+                          </span>
+                        </div>
+                      </button>
+
+                      {/* 垫图设置控件 */}
+                      <div className="space-y-3">
+                        <div className="flex justify-between items-center">
+                          <div className="font-medium text-gray-700">
+                            <div className="flex items-center">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-4 w-4 mr-1"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                                />
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                                />
+                              </svg>
+                              辅助线显示
                             </div>
                           </div>
-                        );
-                      },
-                    )}
+                          <button
+                            onClick={() =>
+                              setIsGuideLineVisible(!isGuideLineVisible)
+                            }
+                            className={`px-3 py-1 rounded-full text-sm font-medium ${
+                              isGuideLineVisible
+                                ? 'bg-green-100 text-green-700 border border-green-200'
+                                : 'bg-gray-100 text-gray-500 border border-gray-200'
+                            }`}
+                          >
+                            {isGuideLineVisible ? '显示中' : '已隐藏'}
+                          </button>
+                        </div>
+
+                        <div>
+                          <div className="flex justify-between items-center mb-2">
+                            <div className="text-sm font-medium text-gray-700 flex items-center">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-4 w-4 mr-1"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"
+                                />
+                              </svg>
+                              垫图大小:
+                            </div>
+                            <button
+                              onClick={() =>
+                                setIsGuideLineLocked(!isGuideLineLocked)
+                              }
+                              className={`flex items-center text-xs px-2 py-1 rounded-full ${
+                                isGuideLineLocked
+                                  ? 'bg-red-100 text-red-700 border border-red-200'
+                                  : 'bg-gray-100 text-gray-600 border border-gray-200'
+                              }`}
+                            >
+                              <span className="mr-1">
+                                {isGuideLineLocked ? '🔒' : '🔓'}
+                              </span>
+                              {isGuideLineLocked ? '已锁定' : '可调整'}
+                            </button>
+                          </div>
+
+                          <div className="flex items-center space-x-3">
+                            <input
+                              type="range"
+                              min="100"
+                              max="600"
+                              value={guideLineSize}
+                              onChange={(e) => {
+                                if (!isGuideLineLocked) {
+                                  const newSize = parseInt(e.target.value);
+                                  setGuideLineSize(newSize);
+                                  updateSize(newSize);
+                                }
+                              }}
+                              className={`w-full h-2 rounded-full appearance-none bg-blue-100 ${
+                                isGuideLineLocked
+                                  ? 'opacity-50 cursor-not-allowed'
+                                  : 'cursor-pointer'
+                              }`}
+                              disabled={isGuideLineLocked}
+                              style={{
+                                backgroundSize: `${
+                                  ((guideLineSize - 100) / 500) * 100
+                                }% 100%`,
+                                backgroundImage:
+                                  'linear-gradient(to right, #3b82f6, #93c5fd)',
+                              }}
+                            />
+                            <span className="text-sm font-medium text-gray-700 w-12 text-right">
+                              {guideLineSize}px
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* 右侧面板 - 调色板 */}
+                  <div>
+                    <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-100">
+                      <h3 className="font-medium text-gray-800 mb-3 flex items-center">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-5 w-5 mr-2"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
+                          />
+                        </svg>
+                        调色盘设置
+                      </h3>
+
+                      <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
+                        {Object.entries(initialColors).map(
+                          ([colorKey, colorValue], index) => (
+                            <div key={colorKey} className="color-item">
+                              <div className="relative flex flex-col items-center">
+                                <input
+                                  type="color"
+                                  id={`color-${index}`}
+                                  value={hexToColor(colorValue)}
+                                  onChange={(e) => {
+                                    const newColor = parseInt(
+                                      e.target.value.replace('#', ''),
+                                      16,
+                                    );
+                                    handleInitialColorChange(
+                                      colorKey,
+                                      newColor,
+                                    );
+                                  }}
+                                  className="sr-only" // 隐藏原生input
+                                />
+                                <label
+                                  htmlFor={`color-${index}`}
+                                  className="w-10 h-10 rounded-lg cursor-pointer border border-gray-200 shadow-sm hover:shadow-md transition-shadow"
+                                  style={{
+                                    backgroundColor: hexToColor(colorValue),
+                                  }}
+                                >
+                                  <span className="sr-only">选择颜色</span>
+                                </label>
+                                <span className="mt-1 text-xs text-gray-500">
+                                  {colorKey}
+                                </span>
+                              </div>
+                            </div>
+                          ),
+                        )}
+                      </div>
+                    </div>
                   </div>
                 </div>
-
-              </>
+              </div>
             )}
-
-            <button
-              className="bg-[#ffffff] rounded-[6px] p-[6px] pl-[12px] pr-[12px] mr-4"
-              onClick={() => {
-                router.push('/showdetail');
-              }}
-            >
-              欣赏图鉴
-            </button>
-            <button
-              className="bg-[#ffffff] rounded-[6px] p-[6px] pl-[12px] pr-[12px] mr-4"
-              onClick={() => {
-                drawingControls?.clear();
-              }}
-            >
-              清空画布
-            </button>
-            <button className="bg-[#ffffff] rounded-[6px] p-[6px] pl-[12px] pr-[12px] mr-4" onClick={() => {
-              drawingControls.undo();
-            }}>上一步</button>
-            <button className="bg-[#ffffff] rounded-[6px] p-[6px] pl-[12px] pr-[12px]" onClick={() => {
-              drawingControls.redo();
-            }}>下一步</button>
-            <Suspense fallback={null}>
-              <ColorPicker brush={brush} setBrush={setBrush} />
-            </Suspense>
           </div>
 
+          <style jsx>{`
+            .tooltip-wrapper:hover::after {
+              content: attr(title);
+              position: absolute;
+              bottom: 100%;
+              left: 50%;
+              transform: translateX(-50%);
+              background: rgba(0, 0, 0, 0.8);
+              color: white;
+              padding: 4px 8px;
+              border-radius: 4px;
+              font-size: 12px;
+              white-space: nowrap;
+              z-index: 100;
+              pointer-events: none;
+            }
 
-          <div className="relative">
-            <div className="badge-circle w-10 h-10 rounded-full grid place-items-center">
-              <span className="text-yellow-300 text-xl">★</span>
-            </div>
-          </div>
+            .animation-expand {
+              animation: expandPanel 0.3s ease-out;
+            }
+
+            @keyframes expandPanel {
+              from {
+                opacity: 0;
+                transform: translateY(-10px);
+              }
+              to {
+                opacity: 1;
+                transform: translateY(0);
+              }
+            }
+
+            input[type='range']::-webkit-slider-thumb {
+              -webkit-appearance: none;
+              appearance: none;
+              width: 18px;
+              height: 18px;
+              background: #3b82f6;
+              border-radius: 50%;
+              cursor: pointer;
+              border: 2px solid white;
+              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+            }
+          `}</style>
         </header>
         <CustomModal
           isOpen={isModalOpen}
